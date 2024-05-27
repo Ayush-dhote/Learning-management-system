@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#b25abd,#7658c2,#655bc4,#4e5ac8);
+}
+#register{
+  display: initial;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 35%;
+    height: 70%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    /* background-color: rgba(255, 255, 255, 0.192)/ */
+    box-shadow: rgba(17, 12, 46, 0.301) 0px 60px 120px 0px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid #f1f1f1; */
+    height: 100%;
+    border-radius: 60px;
+  }
+  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+  }
+  input[type=text],input[type=email],input[type=password] {
+    width: 60%;
+    height: 10%;
+    border-radius: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    background-color: rgba(34, 34, 34, 0.192);
+    color: rgb(0, 0, 0);
+  }
+  #button{
+    background-color: #4d4d4d;
+    color: white;
+    padding: 14px 20px;
+    /* margin-top: 19px; */
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 40px;
+    background-color: #6eb554;
+  }  
+  #noth{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    /* background-color: #4e5ac8; */
+
+  }
+  #select{
+    width: 30%;
+    height: 35px;
+    margin-left: 50px;
+    border-radius: 40px;
+    border: none;
+    padding-left: 20px;
+    background-color: rgba(34, 34, 34, 0.192);
+    color: rgb(0, 0, 0);
+    
+  }
+  form a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4d4d4d;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  #login{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    height: 50%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    /* background-color: rgba(255, 255, 255, 0.192)/ */
+    box-shadow: rgba(17, 12, 46, 0.301) 0px 60px 120px 0px;
+}
+#login #log-botton {
+    background-color: #4d4d4d;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 19px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #6eb554;
+  }  

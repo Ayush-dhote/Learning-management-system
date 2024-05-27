@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="register">
+            <form id="form1" onsubmit="return false">
+                <h1>Register</h1>
+                <input id="name" type="text" min="5" max="15" value="" required placeholder="name">
+                <input id="username" type="text" min="5" max="15" required placeholder="username">
+                <input id="email" type="email" required  placeholder="email">
+                <input id="password" type="password" min="5" max="15" required placeholder="password">
+                <div id="noth">
+                    <select required name="select" id="select">
+                        <option id="select" value="select" selected disabled> Select</option>
+                        <option value="admin">Admin</option>
+                        <option value="student">Student</option>
+                        <input id="button" type="submit">
+                    </select>
+                </div>
+                <a id="lg" href="#">Login here</a>
+            </form>
+        </div>
+        <div id="login">
+            <form id="form2" onsubmit="return false">
+                <h1>Login</h1>
+                <input id="luname" type="text" placeholder="username">
+                <input id="lpassword" type="password" placeholder="password">
+                <input id="log-botton" type="submit">
+                <a id="rg" href="#">Register here</a>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./register.js"></script>
+</body>
+</html>
